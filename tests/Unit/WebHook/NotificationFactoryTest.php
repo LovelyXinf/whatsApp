@@ -6,9 +6,6 @@ use Netflie\WhatsAppCloudApi\WebHook\Notification;
 use Netflie\WhatsAppCloudApi\WebHook\NotificationFactory;
 use PHPUnit\Framework\TestCase;
 
-/**
- * @group unit
- */
 final class NotificationFactoryTest extends TestCase
 {
     private NotificationFactory $notification_factory;
